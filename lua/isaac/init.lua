@@ -1,0 +1,5 @@
+require("isaac.keys")
+require("isaac.options")
+require("isaac.lazy")
+require("isaac.colorscheme")
+require("isaac.telescope")
