@@ -10,7 +10,8 @@ local options = {
 	hlsearch = false,
 	tabstop = 4,
 	shiftwidth = 4,
-	smartindent = true
+	smartindent = true,
+	cursorline = true
 }
 for k, v in pairs(options) do
 	vim.opt[k] = v
