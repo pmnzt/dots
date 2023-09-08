@@ -8,8 +8,8 @@ local options = {
 	scrolloff = 8,
 	wrap = false,
 	hlsearch = false,
-	tabstop = 4,
-	shiftwidth = 4,
+	tabstop = 2,
+	shiftwidth = 2,
 	smartindent = true,
 	cursorline = true
 }
