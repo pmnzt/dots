@@ -18,7 +18,8 @@ local M = {
 function M.config()
 	local cmp = require 'cmp'
 	local luasnip = require 'luasnip'
-	require('luasnip.loaders.from_vscode').lazy_load()
+	require('luasnip.loaders.from_vscode').lazy_load({paths = { "~/.config/nvim/my_snippets", '~/.local/share/nvim/lazy/friendly-snippets' }})
+--	require('luasnip.loaders.from_vscode').lazy_load()
 	luasnip.config.setup {}
 
 	cmp.setup {
